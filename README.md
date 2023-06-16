@@ -25,3 +25,21 @@ Instead, React will figure out & perform the necessary steps.
 Vanilla JavaScript = Imperative Programming.
 Define the steps needed to get there, not the goal.
 Which is cumbersome and difficult with very many steps.
+
+## Creating React Projects Locally.
+
+-   You will need to install Node JS. Helps to use commands with the command line.
+-   Always run _npm install_ to download dependencies for a given project.
+-   To start the project: _npm start_ and click on the link
+-   To quit the project: _ctr c_
+-   To restart the project: _npm start_ and click on the link
+
+### Creating a Brand New react project
+
+-   To create a brand new project: _npx create-react-app my-app_
+-   Navigate to the folder where you want to create the project: _cd react-project_
+-   The create the app: _npx create-react-app project-name_
+
+### Ignoring node modules on git
+
+-   Create a git ignore file (ignore files when you make a commit)
