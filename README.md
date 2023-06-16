@@ -43,3 +43,8 @@ Which is cumbersome and difficult with very many steps.
 ### Ignoring node modules on git
 
 -   Create a git ignore file (ignore files when you make a commit)
+-   This is already included automatically when the project is created
+
+### Using React in the Browser
+
+-   Use link: _react.new_
