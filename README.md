@@ -1,4 +1,4 @@
-# What is React?
+# Section 1: What is React?
 
 Official Web Page: https://react.dev/
 React is a JavaScript library for building user interfaces.
@@ -48,3 +48,5 @@ Which is cumbersome and difficult with very many steps.
 ### Using React in the Browser
 
 -   Use link: _react.new_
+
+# Section 2: JavaScript Refresher
