@@ -50,3 +50,18 @@ Which is cumbersome and difficult with very many steps.
 -   Use link: _react.new_
 
 # Section 2: JavaScript Refresher
+
+## Adding JavaScript to a Page.
+
+-   JavaScript can be executed in the browser (as part of the websites).
+-   JavaScript can also be executed outside of the browser (Server-side code) - This is due to Node JS.
+-   JavaScript can also be executed on Mobile Devices. (e.g via embedded websites) - E.g using technologies like React Native.
+
+### Adding JavaScript Code to a Website.
+
+-   Between _Script_ tags
+-   Via _script_ import (with src attribute) - Recommended option (Separate JS files).
+    -   You can add the script tags either in the head section or body section
+    -   The defer attribute can be added, to allow the JS code to be executed only after the html code has been passed.
+    -   For modern JS, instead of defer, use _type_ attribute and set it to _module_
+    -   For react projects, the script tags are created through the build process.
