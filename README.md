@@ -80,3 +80,21 @@ Which is cumbersome and difficult with very many steps.
 -   You can access the grouped imports by using the default JS dot notation e.g console.log(util.abc);
 -   Remember you can mix with the default exports
 -   The as keyword in the imports can also be used to give aliases to variables e.g import { apiKey, abc as content } from "./util.js";
+
+## Revisiting Variable, Values and Operators
+
+-   There are different types of values: Strings, Numbers, Booleans, Null and Undefined, Objects
+-   Variables store values
+-   Variables help to reuse a value and code readability.
+-   Variables can be created with the _let_ keyword e.g let userMessage = "Hello World";
+-   Variables must follow variables rules
+-   We also have constants which are created with the _const_ keyword e.g const userMessage = "Hello World";
+-   Constants must not be reassigned.
+-   To carryout operations, refer to operators like +, -, \*, /
+-   The + operator can also be used on strings (concatenation)
+-   Some other operators are;
+    -   === for equality (boolean value)
+    -   Others: <, >, <=, >=
+    -   The above are comparison operators usually used with the if keyword
+
+## Revisiting Functions & Parameters
