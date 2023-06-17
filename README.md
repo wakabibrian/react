@@ -65,3 +65,18 @@ Which is cumbersome and difficult with very many steps.
     -   The defer attribute can be added, to allow the JS code to be executed only after the html code has been passed.
     -   For modern JS, instead of defer, use _type_ attribute and set it to _module_
     -   For react projects, the script tags are created through the build process.
+
+## import and export
+
+-   This helps to split the JS code across multiple files to keep it maintainable and manageable.
+-   _export_ variables or functions you want to use in other files e.g export let apiKey = "agsbdndsgshdbs";
+-   _import_ variables or functions you have exported from other files e.g import { apiKey } from "./util.js";
+-   The _type - module_ attribute helps the import and export to work
+-   In react you omit the .js extension because of the build process.
+-   You can also export a default value e.g export default "agsbdndsgshdbs"; You can only have one export default value.
+-   For default value, you import with any name without the curly braces e.g export default "agsbdndsgshdbs";
+-   Export and import with default is used when you have one value or one thing in the file.
+-   If you have multiple exports, you can import them by grouping them into JS object e.g import \* as util from "./util.js";
+-   You can access the grouped imports by using the default JS dot notation e.g console.log(util.abc);
+-   Remember you can mix with the default exports
+-   The as keyword in the imports can also be used to give aliases to variables e.g import { apiKey, abc as content } from "./util.js";
